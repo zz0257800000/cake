@@ -1,0 +1,290 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: rgb(254, 255, 222);
+  height: 100vh;
+}
+body::after {
+  content: "";
+  height: 250px;
+  width: 300px;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  top: 1550px;
+  z-index: -1;
+}
+
+.X {
+  box-shadow: 5px 5px 5px black;
+}
+
+.page {
+  width: 90%;
+  margin: 0 5%;
+  border: 0px solid black;
+  margin-top: 5%;
+  display: flex;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.header .headerSquare {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+.header .hanburger {
+  background-image: url(./甜點圖片/Group\ 10.png);
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 41px;
+  height: 40px;
+}
+
+.second .left {
+  width: 40vw;
+  height: 80vh;
+  border: 0px solid black;
+}
+.second .right {
+  background-image: url(./甜點圖片/1.png);
+  width: 50vw;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0px solid black;
+}
+
+.onSale {
+  border: 0px solid black;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.onSale .onSaleImgs {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: space-around;
+}
+.onSale .onSaleImgs .onSaleImg1 {
+  width: 30%;
+  height: 100%;
+  background-image: url(./甜點圖片/3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.onSale .onSaleImgs .onSaleImg1 .saleBtn1 {
+  width: 85%;
+  height: 20%;
+  color: white;
+  background-color: pink;
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+  border: 0;
+}
+.onSale .onSaleImgs .onSaleImg1 .saleBtn1:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+.onSale .onSaleImgs .onSaleImg2 {
+  width: 30%;
+  height: 100%;
+  background-image: url(./甜點圖片/2.png);
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.onSale .onSaleImgs .onSaleImg2 .saleBtn2 {
+  width: 85%;
+  height: 20%;
+  color: white;
+  background-color: pink;
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+  border: 0;
+}
+.onSale .onSaleImgs .onSaleImg2 .saleBtn2:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+.onSale .onSaleImgs .onSaleImg3 {
+  width: 30%;
+  height: 100%;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url(./甜點圖片/4.png);
+}
+.onSale .onSaleImgs .onSaleImg3 .saleBtn3 {
+  width: 85%;
+  height: 20%;
+  color: white;
+  background-color: pink;
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+  border: 0;
+}
+.onSale .onSaleImgs .onSaleImg3 .saleBtn3:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+
+.news {
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30%;
+}
+.news .cardArea {
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-around;
+  height: 600vh;
+  width: 100%;
+}
+.news .cardArea .card1 {
+  margin: 20px;
+  height: 100%;
+  width: 40%;
+}
+.news .cardArea .card1 .top img {
+  width: 100%;
+  height: 200px;
+}
+.news .cardArea .card1 .down {
+  margin: 20px;
+}
+.news .cardArea .card1 .down .newBtn1 {
+  width: 50%;
+  height: 20%;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.news .cardArea .card1 .down .newBtn1:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+.news .cardArea .card2 {
+  margin: 20px;
+  height: 100%;
+  width: 40%;
+}
+.news .cardArea .card2 .top img {
+  width: 100%;
+  height: 200px;
+}
+.news .cardArea .card2 .down {
+  margin: 20px;
+}
+.news .cardArea .card2 .down .newBtn2 {
+  width: 50%;
+  height: 20%;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.news .cardArea .card2 .down .newBtn2:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+.news .cardArea .card3 {
+  margin: 20px;
+  height: 100%;
+  width: 40%;
+}
+.news .cardArea .card3 .top img {
+  width: 100%;
+  height: 200px;
+}
+.news .cardArea .card3 .down {
+  margin: 20px;
+}
+.news .cardArea .card3 .down .newBtn3 {
+  width: 50%;
+  height: 20%;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.news .cardArea .card3 .down .newBtn3:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+.news .morebutton {
+  height: 40%;
+  width: 20%;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: white;
+  background-color: pink;
+}
+.news .morebutton:hover {
+  background-color: rgb(132, 255, 255);
+  color: rgb(28, 18, 83);
+}
+
+.arr {
+  height: 70vh;
+  display: flex;
+  margin-bottom: 10%;
+  border: 0px solid black;
+}
+.arr .tail {
+  margin-top: 40px;
+  margin-left: 100px;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: 0px solid black;
+}
+.arr .tail .le img {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+}
+.arr .tail .ri {
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+  background-color: pink;
+  border-color: pink;
+  border: 0px solid black;
+  height: 100%;
+  width: 200px;
+  flex-direction: column;
+}
+.arr .tail .ri p {
+  margin: 10px;
+}
+.arr .tail .ri h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: pink;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
