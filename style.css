@@ -4,16 +4,6 @@ body {
   background-color: rgb(254, 255, 222);
   height: 100vh;
 }
-body::after {
-  content: "";
-  height: 250px;
-  width: 300px;
-  background-color: pink;
-  position: absolute;
-  left: 0;
-  top: 1550px;
-  z-index: -1;
-}
 
 .X {
   box-shadow: 5px 5px 5px black;
@@ -84,12 +74,12 @@ body::after {
 }
 .onSale .onSaleImgs .onSaleImg1 .saleBtn1 {
   width: 85%;
-  height: 20%;
   color: white;
   background-color: pink;
   position: absolute;
-  bottom: 40px;
-  left: 15px;
+  bottom: 120px;
+  height: 10%;
+  left: 25px;
   border: 0;
 }
 .onSale .onSaleImgs .onSaleImg1 .saleBtn1:hover {
@@ -106,12 +96,12 @@ body::after {
 }
 .onSale .onSaleImgs .onSaleImg2 .saleBtn2 {
   width: 85%;
-  height: 20%;
   color: white;
   background-color: pink;
   position: absolute;
-  bottom: 40px;
-  left: 15px;
+  bottom: 120px;
+  height: 10%;
+  left: 25px;
   border: 0;
 }
 .onSale .onSaleImgs .onSaleImg2 .saleBtn2:hover {
@@ -128,12 +118,12 @@ body::after {
 }
 .onSale .onSaleImgs .onSaleImg3 .saleBtn3 {
   width: 85%;
-  height: 20%;
   color: white;
   background-color: pink;
   position: absolute;
-  bottom: 40px;
-  left: 15px;
+  bottom: 120px;
+  height: 10%;
+  left: 25px;
   border: 0;
 }
 .onSale .onSaleImgs .onSaleImg3 .saleBtn3:hover {
@@ -245,7 +235,17 @@ body::after {
   margin-bottom: 10%;
   border: 0px solid black;
 }
+.arr .boxT {
+  height: 70vh;
+  width: 60vw;
+  background-color: pink;
+  z-index: -2;
+  position: relative;
+  left: 15%;
+}
 .arr .tail {
+  position: relative;
+  right: 15%;
   margin-top: 40px;
   margin-left: 100px;
   height: 80%;

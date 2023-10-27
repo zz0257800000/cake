@@ -4,17 +4,7 @@ body {
     margin: 0;
     background-color: rgb(254, 255, 222);
 height: 100vh;
-&::after {
-    content: "";
-    height: 250px;
-    width: 300px;
-    background-color: $mainColor;
-    position: absolute;
-    left: 0;
-    top:1550px;
-    
-    z-index: -1;
-}
+
 }
 .X{
     box-shadow: 5px 5px 5px black;
@@ -89,12 +79,13 @@ background-repeat: no-repeat;
 position: relative;
 .saleBtn1{
     width: 85%;
-    height: 20%;
+    
     color: white;
     background-color: $mainColor;
     position: absolute;
-    bottom: 40px;
-    left:15px;
+    bottom: 120px;
+    height: 10%;
+    left:25px;
     border: 0;
     &:hover{
         background-color: rgb(132, 255, 255);
@@ -112,13 +103,15 @@ background-size: contain;
        background-repeat: no-repeat;
        .saleBtn2{
         width: 85%;
-    height: 20%;
+
     color: white;
     background-color: $mainColor;
     position: absolute;
-    bottom: 40px;
-    left:15px;
-    border: 0; &:hover{
+    bottom: 120px;
+    height: 10%;
+    left:25px;
+    border: 0;
+     &:hover{
         background-color: rgb(132, 255, 255);
         color: rgb(28, 18, 83);
       }
@@ -133,13 +126,15 @@ background-size: contain;
        background-image: url(./甜點圖片/4.png);
        .saleBtn3{
         width: 85%;
-    height: 20%;
+    
     color: white;
     background-color: $mainColor;
     position: absolute;
-    bottom: 40px;
-    left:15px;
-    border: 0; &:hover{
+    bottom: 120px;
+    height: 10%;
+    left:25px;
+    border: 0; 
+    &:hover{
         background-color: rgb(132, 255, 255);
         color: rgb(28, 18, 83);
       }
@@ -182,7 +177,8 @@ background-size: contain;
         height: 20%;
         color: white;
         background-color: black;
-        border: 0; &:hover{
+        border: 0; 
+        &:hover{
             background-color: rgb(132, 255, 255);
             color: rgb(28, 18, 83);
           }
@@ -262,8 +258,19 @@ background-size: contain;
     display: flex;
     margin-bottom: 10%;
     border: 0px solid black;
-   
+    .boxT{
+        height: 70vh;
+        width: 60vw;
+        background-color: $mainColor;
+        z-index: -2;
+        position: relative;
+left: 15%;
+    }
+    
+    
     .tail{
+        position: relative;
+        right: 15%;
         margin-top: 40px;
         margin-left: 100px;
         height: 80%;
@@ -271,11 +278,10 @@ background-size: contain;
         display: flex;
         justify-content: center;
         border: 0px solid black;
+        
         .le{
             img{
             background-repeat: no-repeat;
-
-            
            height: 100%;
            width: 80%;}
         }
@@ -289,6 +295,7 @@ background-size: contain;
             height: 100%;
            width: 200px;
            flex-direction: column;
+           
            p{
             margin: 10px;
            }
